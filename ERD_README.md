@@ -1,0 +1,1 @@
+ERD simple diagram: see erd.png. Adapt diagram with diagrams.net or draw.io for submission.

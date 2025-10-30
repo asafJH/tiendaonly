@@ -1,0 +1,164 @@
+/* Ruta: frontend/src/index.css (FINAL UNIFICADO) */
+
+/* ------------------------------------------------ */
+/* --- 1. CONFIGURACIÓN BASE Y TAILWIND --- */
+/* ------------------------------------------------ */
+
+/* Asumimos que estas directivas de Tailwind son necesarias en tu entorno */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos Globales */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------------------------------ */
+/* --- 2. ESTILOS DE NAVEGACIÓN (navbar-*) --- */
+/* ------------------------------------------------ */
+
+.navbar-container {
+  background-color: #1f2937; /* Gris oscuro / Negro */
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end; /* Alinear a la derecha */
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem; 
+  margin-left: 1rem; 
+  transition: color 0.2s;
+  font-weight: 500;
+}
+
+.navbar-item a:hover {
+  color: #60a5fa; /* Azul claro al pasar el ratón */
+}
+
+/* ------------------------------------------------ */
+/* --- 3. ESTILOS DE CATÁLOGO (product-card) --- */
+/* ------------------------------------------------ */
+
+.product-card {
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra suave */
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  transform: scale(1.03); 
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #10b981; /* Verde primario */
+  margin-bottom: 8px;
+}
+
+.product-details-link {
+  display: block;
+  text-align: center;
+  background-color: #3b82f6; /* Azul primario */
+  color: white;
+  padding: 8px 0;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.product-details-link:hover {
+  background-color: #2563eb;
+}
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* ------------------------------------------------ */
+/* --- 4. ESTILOS DE TABLAS Y CARRITO --- */
+/* ------------------------------------------------ */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  overflow: hidden; 
+}
+
+.data-table th, .data-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.data-table thead {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.item-container {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.item-row:last-child {
+  border-bottom: none;
+}
+
+/* Estilos de encabezados para el cuerpo de las páginas */
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
