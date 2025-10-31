@@ -1,4 +1,4 @@
-# 🛒 Tienda en Línea - Proyecto 2o Departamental (tiendaonly)
+# Tienda en Línea - Proyecto 2o Departamental (tiendaonly)
 
 Este proyecto es una tienda en línea (e-commerce) completa construida como parte del 2o Departamental. Utiliza React (con Vite) para el frontend y Supabase para todo el backend (Autenticación, Base de Datos Postgres, Almacenamiento de Imágenes y Seguridad RLS).
 
@@ -11,7 +11,7 @@ Este proyecto es una tienda en línea (e-commerce) completa construida como part
 
 ---
 
-## 🛠️ Arquitectura y Tecnologías
+# Arquitectura y Tecnologías
 
 * **Frontend:** React (Vite), CSS Puro (Clases personalizadas en `index.css`).
 * **Backend (BaaS):** Supabase
@@ -23,7 +23,7 @@ Este proyecto es una tienda en línea (e-commerce) completa construida como part
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto Localmente
+#  Cómo Ejecutar el Proyecto Localmente
 
 1.  **Clonar el Repositorio:**
     ```bash
@@ -61,7 +61,7 @@ Este proyecto es una tienda en línea (e-commerce) completa construida como part
 
 ---
 
-## 🔑 Credenciales de Prueba
+# Credenciales de Prueba
 
 Para probar el flujo de la aplicación, puedes usar las siguientes credenciales (o crear las tuyas):
 
