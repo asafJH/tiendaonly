@@ -5,7 +5,7 @@ Este proyecto es una tienda en línea (e-commerce) completa construida como part
 **Enlace de la aplicación publicada (Deploy):**
 [https://tiendaonly.vercel.app/](https://tiendaonly.vercel.app/)
 **Enlace del Video de Demostración (Google Drive):**
-[Ver Video (3-5 min)](https://drive.google.com/tu-enlace-copiado-aqui)
+[Ver Video (3-5 min)](https://drive.google.com/https://drive.google.com/file/d/11YIgbR4JSUngiuWPWOELN-UZr7_ZxrXm/view?usp=sharing)
 **Enlace del Repositorio:**
 [https://github.com/asafJH/tiendaonly](https://github.com/asafJH/tiendaonly)
 
