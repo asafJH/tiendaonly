@@ -65,11 +65,11 @@ Este proyecto es una tienda en línea (e-commerce) completa construida como part
 Para probar el flujo de la aplicación, puedes usar las siguientes credenciales (o crear las tuyas):
 
 * **Usuario Cliente:**
-    * **Email:** `user@example.com`
+    * **Email:** `jeremias@gmail.com`
     * **Rol:** `user`
     * *Permisos: Puede ver el catálogo, añadir al carrito, pagar y ver su historial de pedidos.*
 
 * **Usuario Administrador:**
-    * **Email:** `admin@example.com`
+    * **Email:** `asafhg987@gmail.com`
     * **Rol:** `admin` (Asignado manualmente en la tabla `profiles` de Supabase).
     * *Permisos: Todos los del cliente, más acceso al Panel de Administración (`/admin`) para crear, editar, activar/desactivar y subir imágenes de productos.*
